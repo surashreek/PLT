@@ -1,0 +1,135 @@
+void main() {
+	int count = 1;
+
+	println("+++++ Force +++++");
+	force f1 = <10,1>;
+	force f2 = <0.01, 0.1> [_kN];
+	force f3 = f1 + f2;
+	force f4 = f3 - f2;
+	force f5 = f3 * 5;
+	force f6 = 5 * f3;
+	force f7 = f6 / 5;
+	println(f1);
+	println(f2);
+	println(f3);
+	println(f4);
+	println(f5);
+	println(f6);
+	println(f7);
+	count = 1;
+	
+	println("\n+++++ Velocity +++++");
+	velocity v1 = <10,1>;
+	velocity v2 = <0.1, 0.1> [_m/s];
+	velocity v3 = v1 + v2;
+	velocity v4 = v3 - v2;
+	velocity v5 = v3 * 5;
+	velocity v6 = 5 * v3;
+	velocity v7 = v6 / 5;
+	println(v1);
+	println(v2);
+	println(v3);
+	println(v4);
+	println(v5);
+	println(v6);
+	println(v7);
+
+	println("\n+++++ Displacement +++++");
+	displacement d1 = <10, 1>;
+	displacement d2 = <0.01, 0.1> [_km];
+	displacement d3 = d1 + d2;
+	displacement d4 = d3 - d2;
+	displacement d5 = d3 * 5;
+	displacement d6 = 5 * d3;
+	displacement d7 = d6 / 5;
+	println(d1);
+	println(d2);
+	println(d3);
+	println(d4);
+	println(d5);
+	println(d6);
+	println(d7);
+
+	println("\n+++++ Acceleration +++++");
+	acceleration a1 = <10,1>;
+	acceleration a2 = <0.1, 0.1> [_m/s^2];
+	acceleration a3 = a1 + a2;
+	acceleration a4 = a3 - a2;
+	acceleration a5 = a3 * 5;
+	acceleration a6 = 5 * a3;
+	acceleration a7 = a6 / 5;
+	println(a1);
+	println(a2);
+	println(a3);
+	println(a4);
+	println(a5);
+	println(a6);
+	println(a7);
+
+	println("\n============== Scalar Types ==============");
+
+	println("\n+++++ Energy +++++");
+	energy e1 = 10; 
+	energy e2 = 0.01 [_kJ];
+	energy e3 = e1 + e2;
+	energy e4 = e3 - e2;
+	energy e5 = e3 * 5;
+	energy e6 = 5 * e3;
+	energy e7 = e6 / 5;
+	println(e1);
+	println(e2);
+	println(e3);
+	println(e4);
+	println(e5);
+	println(e6);
+	println(e7);
+
+	println("\n+++++ Mass +++++");
+	mass m1 = 10;
+	mass m2 = 100 [_g];
+	mass m3 = m1 + m2;
+	mass m4 = m3 - m2;
+	mass m5 = m3 * 5;
+	mass m6 = 5 * m3;
+	mass m7 = m6 / 5;
+	println(m1);
+	println(m2);
+	println(m3);
+	println(m4);
+	println(m5);
+	println(m6);
+	println(m7);
+
+	println("\n+++++ Power +++++");
+	power p1 = 10;
+	power p2 = 100 [_mW];
+	power p3 = p1 + p2;
+	power p4 = p3 - p2;
+	power p5 = p3 * 5;
+	power p6 = 5 * p3;
+	power p7 = p6 / 5;
+	println(p1);
+	println(p2);
+	println(p3);
+	println(p4);
+	println(p5);
+	println(p6);
+	println(p7);
+
+	println("\n+++++ Time +++++");
+	time t1 = 10;
+	time t2 = 100 [_ms];
+	time t3 = t1 + t2;
+	time t4 = t3 - t2;
+	time t5 = t3 * 5;
+	time t6 = 5 * t3;
+	time t7 = t6 / 5;
+	println(t1);
+	println(t2);
+	println(t3);
+	println(t4);
+	println(t5);
+	println(t6);
+	println(t7);
+}
+
